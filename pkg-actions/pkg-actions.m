@@ -1,7 +1,6 @@
 #import <CoreFoundation/CFUserNotification.h>
 #import <CoreFoundation/CoreFoundation.h>
 #import <Foundation/Foundation.h>
-#import <rootless.h>
 
 #include <spawn.h>
 #include <sys/stat.h>
