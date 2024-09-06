@@ -17,9 +17,9 @@ extern char ***_NSGetEnviron(void);
 extern int proc_listallpids(void *, int);
 extern int proc_pidpath(int, void *, uint32_t);
 
-static const char *cynject_path = ROOT_PATH("/usr/bin/cynject");
-static const char *inject_criticald_path = ROOT_PATH("/electra/inject_criticald");
-static const char *dylib_path = ROOT_PATH("/Library/MobileSubstrate/DynamicLibraries/AppSyncUnified-installd.dylib");
+static const char *cynject_path = "/usr/bin/cynject";
+static const char *inject_criticald_path = "/electra/inject_criticald";
+static const char *dylib_path = "/Library/MobileSubstrate/DynamicLibraries/AppSyncUnified-installd.dylib";
 static const char *dispatch_queue_name = NULL;
 static const char *process_name = "installd";
 static int process_buffer_size = 4096;
