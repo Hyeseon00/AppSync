@@ -10,7 +10,6 @@ include $(THEOS)/makefiles/common.mk
 SUBPROJECTS += AppSyncUnified-installd
 SUBPROJECTS += AppSyncUnified-FrontBoard
 SUBPROJECTS += pkg-actions
-SUBPROJECTS += asu_inject
 
 include $(THEOS_MAKE_PATH)/aggregate.mk
 
