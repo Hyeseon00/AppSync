@@ -1,4 +1,4 @@
-ARCHS =arm64
+ARCHS = arm64
 
 include $(THEOS)/makefiles/common.mk
 
